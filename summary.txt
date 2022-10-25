@@ -1,0 +1,270 @@
+Camera summary:
+Manufacturer: Nikon Corporation
+Model: D7500
+  Version: V1.10
+  Serial Number: 00000000000000000000000003145748
+Vendor Extension ID: 0xa (1.0)
+Vendor Extension Description: Microsoft.com/DeviceServices: 1.0
+
+Capture Formats: JPEG Undefined Type
+Display Formats: JPEG, Undefined Type, Association/Directory, TIFF, DPOF, Script, Apple Quicktime, Unknown(b982)
+
+Device Capabilities:
+	File Download, File Deletion, File Upload
+	Generic Image Capture, No Open Capture, Nikon Capture 1, Nikon Capture 2, Nikon Capture 3
+
+Storage Devices Summary:
+store_00010001:
+	StorageDescription: 
+	VolumeLabel: NIKON D7500 [Slot 1]
+	Storage Type: Removable RAM (memory card)
+	Filesystemtype: Digital Camera Layout (DCIM)
+	Access Capability: Read Only with Object deletion
+	Maximum Capability: 15923150848 (15185 MB)
+	Free Space (Bytes): 12356386816 (11783 MB)
+	Free Space (Images): 321
+
+Device Property Summary:
+Battery Level(0x5001):(read only) (type=0x2) Range [1 - 100, step 1] value: 80% (80)
+Image Size(0x5003):(readwrite) (type=0xffff) Enumeration [
+	'5568x3712',
+	'4176x2784',
+	'2784x1856'
+	] value: '4176x2784'
+Compression Setting(0x5004):(readwrite) (type=0x2) Enumeration [0,1,2,3,4,5,7,8,9,10,11,12,13] value: 11
+White Balance(0x5005):(readwrite) (type=0x4) Enumeration [2,4,5,6,7,32784,32785,32786,32787] value: Automatic (2)
+F-Number(0x5007):(readwrite) (type=0x4) Enumeration [480,500,560,630,710,800,900,1000,1100,1300,1400,1600,1800,2000,2200,2500] value: f/4.8 (480)
+Focal Length(0x5008):(read only) (type=0x6) Range [7000 - 30000, step 1] value: 72 mm (7200)
+Focus Mode(0x500a):(read only) (type=0x4) Enumeration [1,32784,32785,32786,32787] value: Manual Focus (1)
+Exposure Metering Mode(0x500b):(readwrite) (type=0x4) Enumeration [2,3,4,32784] value: Multi-spot (3)
+Flash Mode(0x500c):(readwrite) (type=0x4) Enumeration [2,4,32784,32786] value: Auto (32784)
+Exposure Time(0x500d):(readwrite) (type=0x6) Enumeration [1,2,3,4,5,6,8,10,12,15,20,25,31,40,50,62,80,100,125,166,200,250,333,400,500,666,769,1000,1250,1666,2000,2500,3333,4000,5000,6250,7692,10000,13000,16000,20000,25000,30000,40000,50000,60000,80000,100000,130000,150000,200000,250000,300000,4294967295,4294967293] value: 3 sec (300000)
+Exposure Program Mode(0x500e):(read only) (type=0x4) Enumeration [1,2,3,4,32784,32790,32792,32793,32848,32849] value: M (1)
+Exposure Index (film speed ISO)(0x500f):(readwrite) (type=0x4) Enumeration [50,64,80,100,125,160,200,250,320,400,500,640,800,1000,1250,1600,2000,2500,3200,4000,5000,6400,8000,10000,12800,16000,20000,25600,32000,40000,51200] value: ISO 10000 (10000)
+Exposure Bias Compensation(0x5010):(readwrite) (type=0x3) Enumeration [-5000,-4666,-4333,-4000,-3666,-3333,-3000,-2666,-2333,-2000,-1666,-1333,-1000,-666,-333,0,333,666,1000,1333,1666,2000,2333,2666,3000,3333,3666,4000,4333,4666,5000] value: 0.0 stops (0)
+Date & Time(0x5011):(readwrite) (type=0xffff) '20221017T205613'
+Still Capture Mode(0x5013):(read only) (type=0x4) Enumeration [1,2,32784,32785,32786,32790,32792] value: Single Shot (1)
+Burst Number(0x5018):(readwrite) (type=0x4) Range [1 - 100, step 1] value: 1
+Focus Metering Mode(0x501c):(readwrite) (type=0x4) Enumeration [2,32784,32785,32786,32787,32788,32789] value: Single Area (32784)
+Artist(0x501e):(read only) (type=0xffff) ''
+Copyright Info(0x501f):(read only) (type=0xffff) ''
+UseDeviceStageFlag(0xd303):(read only) (type=0x2) 1
+Property 0xd406:(readwrite) (type=0xffff) 'Windows/6.0.5330.0 MTPClassDriver/6.0.5330.0'
+Property 0xd407:(read only) (type=0x6) 1
+Reset Bank 0(0xd015):(readwrite) (type=0x2) Range [0 - 1, step 1] value: 0
+Raw Compression(0xd016):(readwrite) (type=0x2) Range [0 - 1, step 1] value: Lossy (1)
+Auto White Balance Bias(0xd017):(readwrite) (type=0x4) Range [0 - 1224, step 1] value: 612
+Tungsten White Balance Bias(0xd018):(readwrite) (type=0x4) Range [0 - 1224, step 1] value: 612
+Fluorescent White Balance Bias(0xd019):(readwrite) (type=0x4) Range [0 - 1224, step 1] value: 612
+Daylight White Balance Bias(0xd01a):(readwrite) (type=0x4) Range [0 - 1224, step 1] value: 612
+Flash White Balance Bias(0xd01b):(readwrite) (type=0x4) Range [0 - 1224, step 1] value: 612
+Cloudy White Balance Bias(0xd01c):(readwrite) (type=0x4) Range [0 - 1224, step 1] value: 612
+Shady White Balance Bias(0xd01d):(readwrite) (type=0x4) Range [0 - 1224, step 1] value: 612
+White Balance Colour Temperature(0xd01e):(readwrite) (type=0x4) Range [2500 - 10000, step 10] value: 5000
+White Balance Preset Number(0xd01f):(readwrite) (type=0x2) Range [1 - 6, step 1] value: 1
+White Balance Preset Name 1(0xd021):(readwrite) (type=0xffff) '                                    '
+White Balance Preset Name 2(0xd022):(readwrite) (type=0xffff) '                                    '
+White Balance Preset Name 3(0xd023):(readwrite) (type=0xffff) '                                    '
+White Balance Preset Name 4(0xd024):(readwrite) (type=0xffff) '                                    '
+White Balance Preset Value 1(0xd026):(read only) (type=0x6) 304876602
+White Balance Preset Value 2(0xd027):(read only) (type=0x6) 304876602
+White Balance Preset Value 3(0xd028):(read only) (type=0x6) 304876602
+White Balance Preset Value 4(0xd029):(read only) (type=0x6) 304876602
+Shooting Mode(0xd030):(readwrite) (type=0x2) Range [0 - 1, step 1] value: 0
+Color Space(0xd032):(readwrite) (type=0x2) Range [0 - 1, step 1] value: 0
+Flicker Reduction(0xd034):(readwrite) (type=0x2) Range [0 - 2, step 1] value: 2
+Effect Mode(0xd037):(readwrite) (type=0x2) Range [0 - 10, step 1] value: 10
+1_Mode(0xd038):(readwrite) (type=0xffff) '                                    '
+WhiteBalancePresetName6(0xd039):(readwrite) (type=0xffff) '                                    '
+WhiteBalanceTunePreset5(0xd03a):(readwrite) (type=0x4) Range [0 - 1224, step 1] value: 612
+WhiteBalanceTunePreset6(0xd03b):(readwrite) (type=0x4) Range [0 - 1224, step 1] value: 612
+WhiteBalancePresetProtect5(0xd03c):(readwrite) (type=0x2) Range [0 - 1, step 1] value: 0
+WhiteBalancePresetProtect6(0xd03d):(readwrite) (type=0x2) Range [0 - 1, step 1] value: 0
+WhiteBalancePresetValue5(0xd03e):(read only) (type=0x6) 304876602
+WhiteBalancePresetValue6(0xd03f):(read only) (type=0x6) 304876602
+Reset Menu Bank(0xd045):(readwrite) (type=0x2) Range [0 - 1, step 1] value: 0
+PTP_DPC_NIKON_A1AFCModePriority(0xd048):(readwrite) (type=0x2) Range [0 - 1, step 1] value: 0
+PTP_DPC_NIKON_A2AFSModePriority(0xd049):(readwrite) (type=0x2) Range [0 - 1, step 1] value: 0
+Focus Area Wrap(0xd04f):(readwrite) (type=0x2) Range [0 - 1, step 1] value: Off (0)
+AF Lock On(0xd051):(readwrite) (type=0x2) Range [0 - 5, step 1] value: 2
+Enable Copyright(0xd053):(readwrite) (type=0x2) Range [0 - 1, step 1] value: Off (0)
+Auto ISO(0xd054):(readwrite) (type=0x2) Range [0 - 1, step 1] value: Off (0)
+Exposure ISO Step(0xd055):(readwrite) (type=0x2) Range [0 - 1, step 1] value: 0
+Exposure Step(0xd056):(readwrite) (type=0x2) Range [0 - 1, step 1] value: 1/3 (0)
+Centre Weight Area(0xd059):(readwrite) (type=0x2) Range [0 - 4, step 1] value: 8 mm (1)
+Exposure Base Matrix(0xd05a):(readwrite) (type=0x1) Range [-6 - 6, step 1] value: 0
+Exposure Base Center(0xd05b):(readwrite) (type=0x1) Range [-6 - 6, step 1] value: 0
+Exposure Base Spot(0xd05c):(readwrite) (type=0x1) Range [-6 - 6, step 1] value: 0
+Live View AF Area(0xd05d):(readwrite) (type=0x2) Range [0 - 3, step 1] value: 1
+Live View AF Focus(0xd061):(readwrite) (type=0x2) Enumeration [0,2,3,4] value: 3
+Angle Level(0xd067):(read only) (type=0x5) 0.2' (13934)
+Shooting Speed(0xd068):(readwrite) (type=0x2) Range [2 - 8, step 1] value: 6
+Maximum Shots(0xd069):(readwrite) (type=0x2) Range [1 - 100, step 1] value: 100
+Exposure delay mode(0xd06a):(readwrite) (type=0x2) Range [0 - 3, step 1] value: 3
+Long Exposure Noise Reduction(0xd06b):(readwrite) (type=0x2) Range [0 - 1, step 1] value: Off (0)
+File Number Sequencing(0xd06c):(readwrite) (type=0x2) Range [0 - 2, step 1] value: On (1)
+High ISO noise reduction(0xd070):(readwrite) (type=0x2) Range [0 - 3, step 1] value: 0
+Artist Name(0xd072):(readwrite) (type=0xffff) ''
+Copyright Information(0xd073):(readwrite) (type=0xffff) ''
+Flash Sync. Speed(0xd074):(readwrite) (type=0x2) Range [0 - 8, step 1] value: 2
+Flash Shutter Speed(0xd075):(readwrite) (type=0x2) Range [0 - 11, step 1] value: 1/60s (0)
+Bracket Set(0xd078):(readwrite) (type=0x2) Range [0 - 4, step 1] value: AE & Flash (0)
+Bracket Order(0xd07a):(readwrite) (type=0x2) Range [0 - 1, step 1] value: MTR > Under (0)
+AngleLevelPitching(0xd07d):(read only) (type=0x5) 23367128
+AngleLevelYawing(0xd07e):(read only) (type=0x5) -1
+No CF Card Release(0xd08a):(readwrite) (type=0x2) Range [0 - 1, step 1] value: On (0)
+AF Area Point(0xd08d):(readwrite) (type=0x2) Range [0 - 1, step 1] value: On (0)
+Clean Image Sensor(0xd08f):(readwrite) (type=0x2) Range [0 - 3, step 1] value: 3
+Image Comment String(0xd090):(readwrite) (type=0xffff) ''
+Image Comment Enable(0xd091):(readwrite) (type=0x2) Range [0 - 1, step 1] value: Off (0)
+Image Rotation(0xd092):(readwrite) (type=0x2) Range [0 - 1, step 1] value: On (0)
+RetractableLensWarning(0xd09c):(read only) (type=0x2) Range [0 - 1, step 1] value: 0
+MatrixMetering(0xd09f):(readwrite) (type=0x2) Range [0 - 1, step 1] value: 1
+Movie Screen Size(0xd0a0):(readwrite) (type=0x2) Range [0 - 9, step 1] value: 3
+Movie Microphone(0xd0a2):(readwrite) (type=0x2) Range [0 - 5, step 1] value: 0
+MovRecProhibitCondition(0xd0a4):(read only) (type=0x6) 0
+Movie Quality(0xd0a7):(readwrite) (type=0x2) Range [0 - 1, step 1] value: 1
+MovRecordMicrophoneLevelValue(0xd0a8):(readwrite) (type=0x2) Range [1 - 20, step 1] value: 15
+MovWindNoiseReduction(0xd0aa):(readwrite) (type=0x2) Range [0 - 1, step 1] value: 0
+Property 0xd0ab:(read only) (type=0x4) 32894
+MovRecordingZone(0xd0ac):(readwrite) (type=0x2) Range [0 - 1, step 1] value: 0
+MovISOAutoControl(0xd0ad):(readwrite) (type=0x2) Range [0 - 1, step 1] value: 0
+MovISOAutoHighLimit(0xd0ae):(readwrite) (type=0x2) Range [0 - 40, step 1] value: 32
+MovFileType(0xd0af):(readwrite) (type=0x2) Enumeration [0,1] value: 0
+ExposureIndexEx(0xd0b4):(readwrite) (type=0x6) Enumeration [50,64,80,100,125,160,200,250,320,400,500,640,800,1000,1250,1600,2000,2500,3200,4000,5000,6400,8000,10000,12800,16000,20000,25600,32000,40000,51200,64000,81200,102400,204800,409600,820000,1640000] value: 10000
+ISOControlSensitivity(0xd0b5):(read only) (type=0x6) 10000
+FlickerReductionSetting(0xd0b7):(readwrite) (type=0x2) Range [0 - 1, step 1] value: 0
+Bracketing Enable(0xd0c0):(readwrite) (type=0x2) Range [0 - 1, step 1] value: Off (0)
+Exposure Bracketing Step(0xd0c1):(read only) (type=0x2) Range [0 - 5, step 1] value: 3
+Exposure Bracketing Program(0xd0c2):(read only) (type=0x2) Range [0 - 7, step 1] value: 0
+Auto Exposure Bracket Count(0xd0c3):(read only) (type=0x2) Range [1 - 1, step 1] value: 1
+White Balance Bracket Step(0xd0c4):(read only) (type=0x2) Range [0 - 2, step 1] value: 0
+White Balance Bracket Program(0xd0c5):(read only) (type=0x2) Range [0 - 2, step 1] value: 2
+ADLBracketingPattern(0xd0c6):(read only) (type=0x2) Range [0 - 3, step 1] value: 0
+ADLBracketingStep(0xd0c7):(read only) (type=0x2) Range [0 - 4, step 1] value: 0
+Lens ID(0xd0e0):(read only) (type=0x4) 930
+Lens Sort(0xd0e1):(read only) (type=0x2) Range [0 - 1, step 1] value: 1
+Lens Type(0xd0e2):(read only) (type=0x8) 315
+Min. Focal Length(0xd0e3):(read only) (type=0x6) 70 mm (7000)
+Max. Focal Length(0xd0e4):(read only) (type=0x6) 300 mm (30000)
+Max. Aperture at Min. Focal Length(0xd0e5):(read only) (type=0x4) f/4.5 (450)
+Max. Aperture at Max. Focal Length(0xd0e6):(read only) (type=0x4) f/6.3 (630)
+Vignette Control(0xd0f7):(readwrite) (type=0x2) Range [0 - 3, step 1] value: 1
+Auto Distortion Control(0xd0f8):(readwrite) (type=0x2) Range [0 - 1, step 1] value: 0
+Scene Mode(0xd0f9):(readwrite) (type=0x2) Range [0 - 18, step 1] value: 13
+UserMode(0xd0fc):(read only) (type=0x2) Range [0 - 32, step 1] value: 19
+SceneMode2(0xd0fd):(read only) (type=0x2) Range [0 - 32, step 1] value: 19
+Nikon Exposure Time(0xd100):(readwrite) (type=0x6) Enumeration [73536,71936,70536,69536,68736,68036,67536,67136,66786,66536,66336,66176,66036,65936,65856,65786,65736,65696,65661,65636,65616,65596,65586,65576,65566,65561,65556,65551,65549,65546,65544,65542,65541,65540,65539,655385,65538,655376,655373,65537,851978,1048586,131073,1638410,196609,262145,327681,393217,524289,655361,851969,983041,1310721,1638401,1966081,4294967295,4294967293,4294967294] value: 1966081
+AC Power(0xd101):(read only) (type=0x2) Range [0 - 1, step 1] value: No (0)
+Warning Status(0xd102):(read only) (type=0x2) 0
+AF Locked(0xd104):(read only) (type=0x2) Range [0 - 1, step 1] value: No (0)
+AE Locked(0xd105):(read only) (type=0x2) Range [0 - 1, step 1] value: No (0)
+FV Locked(0xd106):(read only) (type=0x2) Range [0 - 1, step 1] value: No (0)
+Active AF Sensor(0xd108):(readwrite) (type=0x2) Range [0 - 51, step 1] value: Top (1)
+Flexible Program(0xd109):(readwrite) (type=0x1) Range [-30 - 30, step 2] value: 0
+Recording Media(0xd10b):(readwrite) (type=0x2) Range [0 - 2, step 1] value: Card (0)
+Camera Orientation(0xd10e):(read only) (type=0x2) Range [0 - 3, step 1] value: 0' (0)
+ExposureCompFlashUsed(0xd118):(readwrite) (type=0x2) Range [0 - 1, step 1] value: 0
+External Flash Attached(0xd120):(read only) (type=0x2) Range [0 - 1, step 1] value: No (0)
+External Flash Status(0xd121):(read only) (type=0x2) Range [0 - 1, step 1] value: No (0)
+External Flash Sort(0xd122):(read only) (type=0x2) Range [0 - 3, step 1] value: 0
+External Flash Compensation(0xd124):(read only) (type=0x1) Range [-18 - 18, step 1] value: 0 (0)
+External Flash Mode(0xd125):(read only) (type=0x2) Range [0 - 7, step 1] value: 0
+Flash Exposure Compensation(0xd126):(readwrite) (type=0x1) Range [-18 - 6, step 2] value: 0.0 stops (0)
+ExternalFlashMultiFlashMode(0xd12d):(read only) (type=0x2) Range [0 - 1, step 1] value: 0
+HDR Mode(0xd130):(readwrite) (type=0x2) Range [0 - 2, step 1] value: 0
+HDR Smoothing(0xd132):(readwrite) (type=0x2) Range [0 - 4, step 1] value: 3
+WBAutoType(0xd141):(readwrite) (type=0x2) Range [0 - 1, step 1] value: 0
+Raw Bit Mode(0xd149):(readwrite) (type=0x2) Range [0 - 1, step 1] value: 1
+Active D-Lighting(0xd14e):(readwrite) (type=0x2) Range [0 - 5, step 1] value: 1
+Fluorescent Type(0xd14f):(readwrite) (type=0x2) Range [0 - 6, step 1] value: 3
+Tune Colour Temperature(0xd150):(readwrite) (type=0x2) Range [0 - 48, step 1] value: 24
+Tune Preset 1(0xd152):(readwrite) (type=0x4) Range [0 - 1224, step 1] value: 612
+Tune Preset 2(0xd153):(readwrite) (type=0x4) Range [0 - 1224, step 1] value: 612
+Tune Preset 3(0xd154):(readwrite) (type=0x4) Range [0 - 1224, step 1] value: 612
+Tune Preset 4(0xd155):(readwrite) (type=0x4) Range [0 - 1224, step 1] value: 612
+WBPresetProtect1(0xd158):(readwrite) (type=0x2) Range [0 - 1, step 1] value: 0
+WBPresetProtect2(0xd159):(readwrite) (type=0x2) Range [0 - 1, step 1] value: 0
+WBPresetProtect3(0xd15a):(readwrite) (type=0x2) Range [0 - 1, step 1] value: 0
+ActiveFolder(0xd15b):(read only) (type=0x4) Range [100 - 999, step 1] value: 100
+WBPresetProtect4(0xd15c):(readwrite) (type=0x2) Range [0 - 1, step 1] value: 0
+WhiteBalanceReset(0xd15d):(readwrite) (type=0x2) Range [0 - 1, step 1] value: 0
+Autofocus Mode(0xd161):(readwrite) (type=0x2) Range [0 - 4, step 1] value: MF (fixed) (3)
+Auto ISO P/A/DVP Setting(0xd164):(readwrite) (type=0x2) Range [0 - 32, step 1] value: 32
+Flash Mode(0xd167):(readwrite) (type=0x2) Range [0 - 2, step 1] value: iTTL (0)
+ISO Auto(0xd16a):(readwrite) (type=0x2) Range [0 - 1, step 1] value: 1
+ISO Auto High Limit(0xd183):(readwrite) (type=0x2) Range [0 - 40, step 1] value: 32
+MovieReleaseButton(0xd197):(readwrite) (type=0x2) Enumeration [0,1] value: 0
+FlashISOAutoHighLimit(0xd199):(readwrite) (type=0x2) Range [0 - 41, step 1] value: 41
+Live View Status(0xd1a2):(read only) (type=0x2) Range [0 - 1, step 1] value: No (0)
+Live View Image Zoom Ratio(0xd1a3):(readwrite) (type=0x2) Range [0 - 7, step 1] value: 0
+Live View Prohibit Condition(0xd1a4):(read only) (type=0x6) 0
+LiveViewExposurePreview(0xd1a5):(read only) (type=0x2) Enumeration [0,1] value: 0
+LiveViewSelector(0xd1a6):(read only) (type=0x2) Enumeration [0,1] value: 0
+MovieShutterSpeed(0xd1a8):(read only) (type=0x6) Enumeration [73536,71936,70536,69536,68736,68036,67536,67136,66786,66536,66336,66176,66036,65936,65856,65786,65736,65696,65661,65636,65616,65596] value: 73536
+MovieFNumber(0xd1a9):(read only) (type=0x4) Enumeration [0] value: 0
+MovieISO(0xd1aa):(readwrite) (type=0x6) Enumeration [100,125,160,200,250,320,400,500,640,800,1000,1250,1600,2000,2500,3200,4000,5000,6400,8000,10000,12800,16000,20000,25600,32000,40000,51200,64000,81200,102400,204800,409600,820000,1640000] value: 100
+MovieExposureBiasCompensation(0xd1ab):(read only) (type=0x3) Enumeration [-3000,-2666,-2333,-2000,-1666,-1333,-1000,-666,-333,0,333,666,1000,1333,1666,2000,2333,2666,3000] value: 0
+LiveViewMovieMode(0xd1ac):(readwrite) (type=0x2) Enumeration [1,2,3] value: 2
+MovieExposureMeteringMode(0xd1af):(read only) (type=0x4) Enumeration [2,3,32784] value: 3
+Exposure Display Status(0xd1b0):(read only) (type=0x2) Range [0 - 3, step 1] value: No (0)
+Exposure Indicate Status(0xd1b1):(read only) (type=0x1) Range [-60 - 60, step 1] value: 4.0 stops (48)
+Info Display Error Status(0xd1b2):(read only) (type=0x2) Range [0 - 1, step 1] value: No (0)
+Exposure Indicate Lightup(0xd1b3):(read only) (type=0x2) Range [0 - 1, step 1] value: No (0)
+ContinousShootingCount(0xd1b4):(read only) (type=0x2) Range [0 - 100, step 1] value: 38
+Flash Open(0xd1c0):(read only) (type=0x2) Range [0 - 1, step 1] value: No (0)
+Flash Charged(0xd1c1):(read only) (type=0x2) Range [0 - 1, step 1] value: No (0)
+ApplicationMode(0xd1f0):(readwrite) (type=0x2) Range [0 - 1, step 1] value: 0
+ExposureRemaining(0xd1f1):(read only) (type=0x6) Range [0 - 4294967295, step 1] value: 321
+ISOAutoShutterCorrectionTime(0xd1f4):(readwrite) (type=0x1) Range [-2 - 2, step 1] value: 0
+MirrorUpStatus(0xd1f6):(read only) (type=0x2) Range [0 - 1, step 1] value: 0
+MirrorUpReleaseShootingCount(0xd1f7):(read only) (type=0x2) Range [0 - 2, step 1] value: 0
+Active Pic Ctrl Item(0xd200):(readwrite) (type=0x4) Enumeration [1,2,3,4,5,6,7,8,201,202,203,204,205,206,207,208,209] value: 8
+Change Pic Ctrl Item(0xd201):(read only) (type=0x4) Enumeration [] value: 0
+ElectronicFrontCurtainShutter(0xd20d):(readwrite) (type=0x2) Range [0 - 1, step 1] value: 0
+MovieResetShootingMenu(0xd20e):(readwrite) (type=0x2) Range [0 - 1, step 1] value: 0
+MovieCaptureAreaCrop(0xd20f):(readwrite) (type=0x2) Range [0 - 1, step 1] value: 0
+MovieWbAutoType(0xd211):(readwrite) (type=0x2) Range [0 - 1, step 1] value: 0
+MovieWbTuneAuto(0xd212):(readwrite) (type=0x4) Range [0 - 1224, step 1] value: 612
+MovieWbTuneIncandescent(0xd213):(readwrite) (type=0x4) Range [0 - 1224, step 1] value: 612
+MovieWbFlourescentType(0xd214):(readwrite) (type=0x2) Range [0 - 6, step 1] value: 3
+MovieWbTuneFlourescent(0xd215):(readwrite) (type=0x4) Range [0 - 1224, step 1] value: 612
+MovieWbTuneSunny(0xd216):(readwrite) (type=0x4) Range [0 - 1224, step 1] value: 612
+MovieWbTuneCloudy(0xd218):(readwrite) (type=0x4) Range [0 - 1224, step 1] value: 612
+MovieWbTuneShade(0xd219):(readwrite) (type=0x4) Range [0 - 1224, step 1] value: 612
+MovieWbColorTemp(0xd21a):(readwrite) (type=0x4) Range [2500 - 10000, step 10] value: 5000
+MovieWbTuneColorTemp(0xd21b):(readwrite) (type=0x2) Range [0 - 48, step 1] value: 24
+MovieWbPresetData0(0xd21c):(readwrite) (type=0x2) Range [1 - 6, step 1] value: 1
+MovieWbPresetDataComment1(0xd21d):(readwrite) (type=0xffff) '                                    '
+MovieWbPresetDataComment2(0xd21e):(readwrite) (type=0xffff) '                                    '
+MovieWbPresetDataComment3(0xd21f):(readwrite) (type=0xffff) '                                    '
+MovieWbPresetDataComment4(0xd220):(readwrite) (type=0xffff) '                                    '
+MovieWbPresetDataComment5(0xd221):(readwrite) (type=0xffff) '                                    '
+MovieWbPresetDataComment6(0xd222):(readwrite) (type=0xffff) '                                    '
+MovieWbPresetDataValue1(0xd223):(read only) (type=0x6) 304876602
+MovieWbPresetDataValue2(0xd224):(read only) (type=0x6) 304876602
+MovieWbPresetDataValue3(0xd225):(read only) (type=0x6) 304876602
+MovieWbPresetDataValue4(0xd226):(read only) (type=0x6) 304876602
+MovieWbPresetDataValue5(0xd227):(read only) (type=0x6) 304876602
+MovieWbPresetDataValue6(0xd228):(read only) (type=0x6) 304876602
+MovieWbTunePreset1(0xd229):(readwrite) (type=0x4) Range [0 - 1224, step 1] value: 612
+MovieWbTunePreset2(0xd22a):(readwrite) (type=0x4) Range [0 - 1224, step 1] value: 612
+MovieWbTunePreset3(0xd22b):(readwrite) (type=0x4) Range [0 - 1224, step 1] value: 612
+MovieWbTunePreset4(0xd22c):(readwrite) (type=0x4) Range [0 - 1224, step 1] value: 612
+MovieWbTunePreset5(0xd22d):(readwrite) (type=0x4) Range [0 - 1224, step 1] value: 612
+MovieWbTunePreset6(0xd22e):(readwrite) (type=0x4) Range [0 - 1224, step 1] value: 612
+MovieWbPresetProtect1(0xd22f):(readwrite) (type=0x2) Range [0 - 1, step 1] value: 0
+MovieWbPresetProtect2(0xd230):(readwrite) (type=0x2) Range [0 - 1, step 1] value: 0
+MovieWbPresetProtect3(0xd231):(readwrite) (type=0x2) Range [0 - 1, step 1] value: 0
+MovieWbPresetProtect4(0xd232):(readwrite) (type=0x2) Range [0 - 1, step 1] value: 0
+MovieWbPresetProtect5(0xd233):(readwrite) (type=0x2) Range [0 - 1, step 1] value: 0
+MovieWbPresetProtect6(0xd234):(readwrite) (type=0x2) Range [0 - 1, step 1] value: 0
+MovieWhiteBalanceReset(0xd235):(readwrite) (type=0x2) Range [0 - 1, step 1] value: 0
+MovieNrHighISO(0xd236):(readwrite) (type=0x2) Range [0 - 3, step 1] value: 2
+MovieActivePicCtrlItem(0xd237):(readwrite) (type=0x4) Enumeration [1,2,3,4,5,6,7,8,100,201,202,203,204,205,206,207,208,209] value: 100
+MovieChangePicCtrlItem(0xd238):(read only) (type=0x4) Enumeration [] value: 0
+ExposureBaseCompHighlight(0xd239):(readwrite) (type=0x1) Range [-6 - 6, step 1] value: 0
+MovieWhiteBalance(0xd23a):(readwrite) (type=0x4) Enumeration [2,4,5,6,32784,32785,32786,32787,32789] value: 32789
+MovieActiveDLighting(0xd23b):(readwrite) (type=0x2) Range [0 - 5, step 1] value: 0
+ElectronicVR(0xd314):(readwrite) (type=0x2) Range [0 - 1, step 1] value: 0
+
