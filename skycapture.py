@@ -30,6 +30,27 @@ import sys
 import gphoto2 as gp
 
 
+
+
+
+class ConfiguredCamera():
+    
+    def __init__(self, **options):
+        '''Start instance'''
+
+        self._camera = gp.Camera()                                      #Create gphoto instance
+        self._camera.init()
+    
+    def __enter__(self):
+        
+        return self._camera
+
+    def __exit__(self, exc_type, exc_value, exc_tb):
+        
+        pass
+
+        
+        
 def main(args):
     
     parser = argparse.ArgumentParser()                                  #Parse command option
@@ -46,11 +67,11 @@ def main(args):
                         type = int, 
                         help = 'Time of exposure in seconds. Default 60 seconds.',
                         default = 60)
-    parser.add_argument('-l', '--time_lapse', 
+    parser.add_argument('-w', '--time_waiting', 
                         type = int, 
                         help = 'Time between exposure in seconds. Default 5 seconds.',
                         default = 5)
-    parser.add_argument('-s', '--number_sequence', 
+    parser.add_argument('-s', '--number_sequences', 
                         type = int, 
                         help = 'Number of light exposure sequences. Default 1 sequence',
                         default = 1)
@@ -78,9 +99,7 @@ def main(args):
                         help = 'ISO sensibility. Default 5000 ISO.',
                         default = 5000)
     args = vars(parser.parse_args())                                    #Get options like a dict
-    
-    print(args)
-    
+
     log_level = [logging.DEBUG,                                         #Log level list
                  logging.INFO, 
                  logging.WARNING, 
@@ -94,9 +113,37 @@ def main(args):
     sh.setFormatter(formatter)
     logger.addHandler(sh)
     
-    logger.info('Sky Capture V0.0')
+    logger.info('Nikon Sky Capture V0.0')                               #Star logger output
+    for a in args:
+        m = a.split('_')
+        if len(m) > 1:
+            f = '{} {}: {}'
+        else:
+            f = '{}: {}'
+        msg = f.format(*m, args[a])
+        logger.info(msg.capitalize())
 
+    callback_obj = gp.check_result(gp.use_python_logging(mapping={      #GPhoto logger
+                                   gp.GP_LOG_ERROR   : logging.INFO,
+                                   gp.GP_LOG_DEBUG   : logging.DEBUG,
+                                   gp.GP_LOG_VERBOSE : logging.DEBUG - 3,
+                                   gp.GP_LOG_DATA    : logging.DEBUG - 6}))
     
+    # ~ camera = gp.Camera()
+    # ~ print('Please connect and switch on your camera')
+    # ~ while True:
+        # ~ error = gp.gp_camera_init(camera)
+        # ~ if error >= gp.GP_OK:
+            # ~ # operation completed successfully so exit loop
+            # ~ break
+        # ~ if error != gp.GP_ERROR_MODEL_NOT_FOUND:
+            # ~ # some other error we can't handle here
+            # ~ raise gp.GPhoto2Error(error)
+        # ~ # no camera, try again in 2 seconds
+        # ~ time.sleep(2)
+    with ConfiguredCamera() as c:
+        if not c:
+            print('Opss')
     
     
     return 0
